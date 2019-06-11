@@ -30,7 +30,7 @@ Get-PowerBIWorkspace -Name <String> [-Scope <PowerBIUserScope>] [<CommonParamete
 
 ### All
 ```
-Get-PowerBIWorkspace [-Scope <PowerBIUserScope>] [-Filter <String>] [-User <String>] [-Deleted] [-Orphaned]
+Get-PowerBIWorkspace [-Scope <PowerBIUserScope>] -Top <int> [-Filter <String>] [-User <String>] [-Deleted] [-Orphaned]
  [-All] [<CommonParameters>]
 ```
 
